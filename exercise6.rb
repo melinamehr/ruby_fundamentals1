@@ -6,7 +6,9 @@ while true == true do
 
   if answer == "walk"
     puts "Distance from home is #{distance += 1}km"
-  else answer == "run"
+  elsif answer == "run"
     puts "Distance from home is #{distance += 5}km"
+  elsif answer == "go home"
+    break
   end
 end
